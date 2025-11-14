@@ -82,7 +82,7 @@ export default function AutomationDashboard() {
     setRunningNow(true);
     try {
       const response = await fetch(
-        'https://admin.bustime.site/api/automation/run',
+        '/api/automation/run',
         {
           method: 'POST',
           headers: {

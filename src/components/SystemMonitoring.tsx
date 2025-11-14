@@ -87,7 +87,7 @@ export default function SystemMonitoring() {
       }
 
       const response = await fetch(
-        'https://admin.bustime.site/api/automation/run',
+        '/api/automation/run',
         {
           method: 'POST',
           headers: {
